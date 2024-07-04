@@ -683,10 +683,12 @@ input[type="datetime"],
 input[type="datetime-local"],
 input[type="color"],
 textarea {
-	color: #666;
-	border: 1px solid #ccc;
-	border-radius: 3px;
-	padding: 3px;
+	color: #000;
+	border: 2px solid #e4efff;
+	border-radius: .5rem;
+	padding: 3px 15px;
+	height:48px;
+	outline:0;
 }
 
 input[type="text"]:focus,

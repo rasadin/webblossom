@@ -50,7 +50,7 @@
     color:#353535;
 }
 .webalive-main-menu li a:hover {
-    color:#4668DF;
+    color:#615EFC;
 }
 .webalive-main-menu li > .sub-menu {
     display: none;
@@ -352,7 +352,7 @@ and (max-width: 1080px) {
 
 .get-in-touchbtn a{
     background-color: transparent;
-    border:2px solid #4668df;
+    border:2px solid #615EFC;
     color:#4668df !important;
     border-radius: 1.5rem;
     font-weight:700;
@@ -361,8 +361,8 @@ and (max-width: 1080px) {
 	font-size:18px;
 }
 .get-in-touchbtn a:hover{
-   background-color: #4668df;
-   border:2px solid #4668df;
+   background-color: #615EFC;
+   border:2px solid #615EFC;
    color: #fff !important;
 }
 .get-in-touchbtn a:after{
@@ -388,13 +388,14 @@ and (max-width: 1080px) {
 }
 .webalive-footer{
 	position:relative;
-	background-color: #ff424a;
-	padding:85px 0px 0px 0px;
+	background-color: #615EFC;
+	padding:90px 0px 22px 0px;
 	overflow: hidden;
+	min-height:500px;
 }
 .webalive-footer:after{
 	content:'';
-	background: url(../img/footer-bg.png) #ff424a no-repeat right;
+	background: url(../img/footer-bg-up.png) #615EFC no-repeat right;
     color: #fff;
     min-height:380px;
 	position:absolute;
@@ -450,12 +451,13 @@ and (max-width: 1080px) {
 }
 .webalive-footer-widget.widget_media_image{
 	 margin-bottom:15px;
+	 margin-top: -30px;
  }
 .explore-btn .elementor-button{
 	background:transparent !important;
 	text-decoration:none !important;
 }
-.explore-white-hover .elementor-button:hover{
+/*.explore-white-hover .elementor-button:hover{
 	background:#fff !important;
 }
 .explore-white-hover .elementor-button:hover span{
@@ -464,6 +466,7 @@ and (max-width: 1080px) {
 .explore-white-hover .elementor-button:hover path{
 	stroke:#ff424a;
 }
+*/
 .explore-btn .elementor-button-icon svg {
     width: auto;
     height: auto;
@@ -474,7 +477,7 @@ and (max-width: 1080px) {
     background-size: cover;
 }
 .header-title-content span{
-	color:#ff0000;
+	color:#615EFC;
 }
 .expertise-colume-box .elementor-widget-container{
 	    transition: background-color 0.5s ease, box-shadow 0.5s ease, transform 0.5s ease;
@@ -490,7 +493,7 @@ and (max-width: 1080px) {
 }
 
 .container.footer-bottom-content {
-    margin-top: -66px;
+    margin-top: -42px;
 }
 .webalive-site-content{
 	min-height:430px;
@@ -532,4 +535,118 @@ and (max-width: 1080px) {
 }
 .team-box-colume:hover .elementor-widget-image:after{
    opacity:100;
+}
+.expertise-colume-box .elementor-image-box-description{
+   line-height:25px;
+}
+
+/*contact from start*/
+.contact-from label{
+	color:#fff;
+	font-size:17px;
+	margin:0;
+}
+.contact-from .two-group {
+    display: grid;
+    grid-template-columns: repeat(2,minmax(0,1fr));
+    grid-gap: 0 25px;
+}
+.contact-from input{
+	width:100%;
+}
+.contact-from .single-input span.require-text{
+	color:#ff424a;
+}
+.contact-from select {
+    color: #000;
+	border: 2px solid #e4efff;
+	border-radius: .5rem;
+	padding: 3px 15px;
+	height:48px;
+	outline:0;
+	width:100%;
+}
+.contact-from textarea{
+	height:104px;
+}
+.contact-from .submit-btn input[type=submit]{
+	max-width: 122px;
+    padding: 13px 17px;
+	background-color: transparent;
+    border: .125rem solid #fff;
+    border-radius: 1.5rem;
+	font-size:18px;
+	font-weight:700;
+	color:#fff;
+	cursor:pointer;
+}
+.contact-from .submit-btn input[type=submit]:hover{
+	background-color:#fff;
+	color:#615EFC;
+}
+.wpcf7-not-valid-tip {
+	color:#fff;
+	font-size:12px;
+    font-style: italic;
+    background-color: #FF424A;
+    padding: 5px 15px;
+    border-radius: 0.5rem;
+    display: block;
+	margin-top: 10px;
+}
+.inner-case-study-contact-form .wpcf7-not-valid-tip{
+	color:#fff;
+	font-size:12px;
+    font-style: italic;
+    background-color:transparent;
+    padding: 0px 0px;
+    border-radius: 0.5rem;
+    display: block;
+	margin-top:0px;
+}
+.wpcf7 form.invalid .wpcf7-response-output, 
+.wpcf7 form.unaccepted .wpcf7-response-output, 
+.wpcf7 form.payment-required .wpcf7-response-output {
+    border-color: #fff;
+	border-radius: 0.5rem;
+	color:#fff;
+}
+/*contact from end*/
+.list-button-content .elementor-icon-list-item a{
+	border:2px solid #fff;
+	border-radius: 9999px;
+	padding:13px 20px !important;
+	margin-bottom:15px;
+}
+.list-people-box h3{
+	margin:0px;
+}
+.background-size-shape{
+	background-size:20% !important;
+}
+.testimonial-content p{
+	color:#fff;
+}
+.email-content a,
+.email-content p{
+	color:#fff;
+}
+.case-study-title span{
+	position:relative;
+}
+
+.case-study-title span:after {
+    background-color: currentColor;
+    content: "";
+    display: block;
+    height: .25rem;
+    margin-top: .625rem;
+    width: 4rem;
+}
+.design-system-bg{
+	background-size:20% !important;
+}
+section.error-404.not-found {
+    text-align: center;
+    margin-top: 115px;
 }

@@ -6,11 +6,14 @@
 }
 /*Laptop*/
 @media only screen and (max-width:1366px) {
-
+.foo-colume-3 {
+    padding-left: 186px;
+}
 }
 /*Laptop*/
 @media only screen and (max-width:1280px) {
-.technology-content {
+.foo-colume-3 {
+    padding-left: 150px;
 }
 }
 /*Tab Landscape*/
